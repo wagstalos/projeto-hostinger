@@ -3,7 +3,7 @@
 <h1 align="center"># Projeto hostinger </h1>
 
 <h1 align="center">
-    <a href="https://wpsgames.com.br/sites/reactjs/portfolio/">🔗 link  do projeto</a>
+    <a href="https://wagstalos.github.io/projeto-hostinger/">🔗 link  do projeto</a>
 </h1>
 
 ## Descrição do Projeto
