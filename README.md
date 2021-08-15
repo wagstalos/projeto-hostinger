@@ -18,57 +18,14 @@
 ### Features
 
 - [x] Treinar SASS
+- [X] Mixins
+- [X] Mixins com argumentos
 - [x] Site sem framework
 
 Para rodar você precisa usar
 
 #Sass
 
-//importando para o main.scss
-um arquivo SASS com _ na frente exemplo (_variables.scss )
-@import 'variables';
-
-
-// encadeamentos
-.s-hero{
-    button{
-        background-color:black;
-        &.active{
-            background-color: red;
-            color: black;
-        }
-        &:hover{
-            background-color: yellow;
-        }
-
-    }
-}
-
-@mixin style-button{
-width: 75px;
-padding: 0 15px
-color: #fff;
-}
-
-button{
-@include style-button
-}
-
-@mixin style-btn($largura){
-    width: $largura;
-    height: 100px;
-    background-color: pink;
-    color: black;
-    font-weight: bold;
-    font-size: 2rem;
-    border-radius: 5px;
-}
-
-.first-section{
-    .btn{
-        @include style-btn(350px);
-    }
-}
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
