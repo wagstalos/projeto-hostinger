@@ -8,7 +8,7 @@
 
 ## Descrição do Projeto
 
-<p align="center">Olá, sou Wagner Paulo, profissional da área Desenvolvimento Web e Games, formado em Design Gráfico (UNIP) e Desenvolvimento Jogos Digitais(ETEC). Apaixonado por tecnologias, trabalho com produção de sites, aplicativos, PWA e jogos digitais com foco para o ensino EaD, neste projeto eu criei um portfolio com minhas skills e mostrando alguns projetos que realizei.</p>
+<p align="center">Olá, sou Wagner Paulo, profissional da área Desenvolvimento Web e Games, formado em Design Gráfico (UNIP) e Desenvolvimento Jogos Digitais(ETEC). Apaixonado por tecnologias, trabalho com produção de sites, aplicativos, PWA e jogos digitais com foco para o ensino EaD, neste projeto eu criei um site simples.</p>
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=SASS&color=3498db&style=for-the-badge&logo="/>
@@ -23,6 +23,52 @@
 Para rodar você precisa usar
 
 #Sass
+
+//importando para o main.scss
+um arquivo SASS com _ na frente exemplo (_variables.scss )
+@import 'variables';
+
+
+// encadeamentos
+.s-hero{
+    button{
+        background-color:black;
+        &.active{
+            background-color: red;
+            color: black;
+        }
+        &:hover{
+            background-color: yellow;
+        }
+
+    }
+}
+
+@mixin style-button{
+width: 75px;
+padding: 0 15px
+color: #fff;
+}
+
+button{
+@include style-button
+}
+
+@mixin style-btn($largura){
+    width: $largura;
+    height: 100px;
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.first-section{
+    .btn{
+        @include style-btn(350px);
+    }
+}
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
