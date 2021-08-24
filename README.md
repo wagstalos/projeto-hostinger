@@ -12,7 +12,7 @@
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=SASS&color=3498db&style=for-the-badge&logo="/>
-<img src="https://img.shields.io/static/v1?label=Status&message=Andamento&color=f1c40f&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Status&message=OK&color=2ecc71&style=for-the-badge&logo="/>
 </h1>
 
    <img src="https://github.com/wagstalos/projeto-hostinger/blob/master/img/screenshot.png" alt="">
